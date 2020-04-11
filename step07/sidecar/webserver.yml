@@ -14,7 +14,7 @@ spec:
       readOnly: true
       
   - name: cloner       ## サイドカー コンテナ
-    image: maho/c-cloner:0.1
+    image: otterton1978/c-cloner:0.1
     env:
     - name: CONTENTS_SOURCE_URL
       value: "https://github.com/Otterton1978/web-contents"
